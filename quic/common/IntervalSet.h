@@ -12,6 +12,7 @@
 #include <exception>
 #include <queue>
 #include <stdexcept>
+#include <limits>
 
 #include <folly/Likely.h>
 
