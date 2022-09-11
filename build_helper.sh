@@ -410,7 +410,7 @@ mvfst_cmake_build_args=(
   -DCMAKE_PREFIX_PATH="$FOLLY_INSTALL_DIR"        \
   -DCMAKE_INSTALL_PREFIX="$MVFST_INSTALL_DIR"     \
   -DCMAKE_BUILD_TYPE=RelWithDebInfo               \
-  -DBUILD_TESTS=OFF                                \
+  -DBUILD_TESTS=ON                                \
   ${CMAKE_EXTRA_ARGS[@]+"${CMAKE_EXTRA_ARGS[@]}"} \
 )
 if [[ -n "${MVFST_ENABLE_CCP-}" ]]; then
